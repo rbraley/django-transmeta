@@ -1,3 +1,10 @@
+This Fork
+=========
+
+This fork follows the suggestion here http://www.xairon.net/2011/03/django-transmeta-and-chinese/
+to make the generated field names have underscores to avoid syntax errors
+so column_zh-cn becomes column_zh_cn 
+
 Introduction
 ============
 
