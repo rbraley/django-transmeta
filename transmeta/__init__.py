@@ -19,7 +19,7 @@ def get_languages():
 def get_real_fieldname(field, lang=None):
     if lang is None:
        lang = get_language().split('-')[0] # both 'en-US' and 'en' -> 'en'
-    return str('%s_%s' % (field, lang))
+    return str('%s_%s' % (field, lang.replace('-', '_')))
 
 
 def get_field_language(real_field):
